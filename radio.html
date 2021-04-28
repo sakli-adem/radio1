@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="title">Sakli Radio-Player</title>
+        <link rel="icon" href="muss.png">
+        <link rel="stylesheet" href="project5.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&amp;display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&amp;display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Unlock&family=Zen+Dots&display=swap" rel="stylesheet">
+   </head>
+
+   <body id="backa">
+    <section id="android" style="width: 99%;display: none;  border-bottom: 2px solid black;
+    background-color: rgb(21, 200, 255);padding: 3px; height: 250px;justify-content: center;">
+    
+        <div id="close" style="font-weight: bold;font-size: 40px;line-height: 65px; 
+        cursor: pointer;margin: 0px 7px;color: black;">&times;</div>
+        <p style="margin-top: 80px;"> follow these steps to activate all canals</p>
+
+<!-- <p style="font-weight: bold;font-family: Arial, Helvetica, sans-serif;font-size: 18px;" >Follow these steps for better usage </p>-->
+            <p style="font-size: 14px;font-family: monospace; margin-top: 100px;">step1: </p>
+        <img src="1.png" style="height: 60px;width: 300px;margin-right: 13px;margin-top: 85px;border-radius: 17px;" >
+        <p style="font-size: 14px;font-family: monospace;margin-top: 100px;">step2: </p>
+        <img src="2.png" style="height: 200px;width: 300px;margin-right: 13px;margin-top: 25px;border-radius: 17px;" >
+        <p style="font-size: 14px;font-family: monospace;margin-top: 100px;">step3: </p>
+        <img src="3.png" style="height: 120px;width: 500px;margin-right: 13px;margin-top: 60px;border-radius: 17px;" >
+    </section>
+
+   
+
+
+
+    <nav id="liste">
+        <h1 style="text-align: center;font-family: 'Unlock', cursive;
+        font-family: 'Zen Dots', cursive;margin-top: 25px;">Playlist</h1>
+        <article style="margin-top: 25px;">
+            <ol>
+        <li id="tab"  onclick="setr()">Jawhara FM</li>
+        <li id="tab"  onclick="setr1()">Mosaique FM</li>
+        <li id="tab"  onclick="setr2()">IFM</li>
+        <li id="tab"  onclick="setr3()">Shems FM</li>
+        <li id="tab"  onclick="setr4()">Knooz FM</li>
+        <li id="tab" onclick="setr5()">Zitouna FM</li>
+        <li id="tab" onclick="setr6()">Tunis Nationale</li>
+        <li id="tab" onclick="setr7()">Express FM</li>
+        <li id="tab" onclick="setr8()">Sfax FM</li>
+        <li id="tab" onclick="setr9()">Sabra FM</li>
+        <li id="tab"onclick="setr10()">Diwan FM</li>
+        <li id="tab"onclick="setr11()">Cap FM</li>
+        <li id="tab" onclick="setr12()">Jeune FM</li>
+        <li id="tab"onclick="setr13()">Monastir FM</li>
+        <li id="tab"onclick="setr14()">Qurant FM</li>
+        <li id="tab"onclick="setr15()">Panorama FM</li>
+        <li id="tab"onclick="setr16()">Radio Kef</li>
+        <li id="tab"onclick="setr17()">Radio Gafsa</li>
+        <li id="tab"onclick="setr18()">Radio Culture</li>
+        <li id="tab"onclick="setr19()">Misk FM</li>
+        <li id="tab"onclick="setr20()">Radio Kelma FM</li>
+        <li id="tab" onclick="setr21()">Ribat FM</li>
+        <li id="tab"  onclick="setr22()">Nejma FM</li>
+        <li id="tab" onclick="setr23()">Karama FM</li>
+        <li id="tab" onclick="setr24()">Mouja FM</li>
+        <li id="tab" onclick="setr25()">Msaken FM</li>
+        <li id="tab" onclick="setr26()">Med FM</li></article>
+    </ol>
+    
+    </nav>
+    <nav id="liste2" >
+        <h1 id="conat" style="text-align: center;font-family: 'Unlock', cursive;
+            font-family: 'Zen Dots', cursive; margin-top: 25px; border-bottom: 4px solid white;">Contact Me</h1>
+            <article style="margin-top:60px;">
+                   <a style="display: block;"  href="https://www.facebook.com/Sakli10/" target="_blank"><img  id="social"src="facebook.png" ></a>
+            <a  style="display: block;" href="https://www.linkedin.com/in/adem-sakli-269190201/" target="_blank"><img id="social" src="linkedin.png" ></a>
+            <a  style="display: block;" href="https://www.instagram.com/sakly.adem/?hl=fr" target="_blank"><img  id="social" src="instagram.png" ></a>
+            <a style="display: block;" href=" mailto:sakliadem94@gmail.com "><img id="social" src="gmail.png" ></a>
+            <a href="https://sakli-adem.github.io/ultra/mycv" target="_blank"><img id="social" src="web.png" ></a>
+            <a style="display: block;" href="tel:+21694760337" target="_blank"><img id="social" src="phone.png" ></a>
+            <div id="div3"><h5 id="copu1" >all © copyright are reserved 2021 </h5></div>
+            </article>
+         
+    </nav>
+<!--
+<nav style="float: right;">  
+<img style="width: 250px;height: 250px;margin-top: 250px;" src="dd.png" alt="">
+</nav>-->
+
+<article style="justify-content: center; align-items: center;text-align: center;"> 
+ <a onclick="ln()"><img id="social1" src="night.png"  ></a>
+<img onclick="ln2()" id="social2" src="light.png" ></article>
+
+    <main id="player" style="height: 768px;">
+     <header id="header">
+   <img id="im" name="imag" src="dtff.png">
+   <h2 id="titleradio">DTF</h2>
+     </header>
+     <div id="content" style="height: 468px;  background: linear-gradient(to top,rgb(6, 187, 219),rgb(250, 37, 239),yellow);">
+         <article id="button">
+             <img src="pre.png" id="back">
+             <img src="play.png" id="play_pause">
+             <img src="next.png" id="next">
+   
+             <audio id="audiofile" src="dtf1.mp3" ></audio>
+   
+             
+         </article>
+   
+   <article id="volume">
+   
+       <h2 style="text-align: center;font-family: 'Original Surfer', cursive;">volume</h2>
+      
+              <article style="display: flex; justify-content: space-around;"> 
+                <h3 >0%</h3> <input type="range" id="vol"> <h3 id="valeur">50%</h3></article>
+
+       <h2 id="h22" style="font-family: 'Original Surfer', cursive;"> Speed</h2>
+       <article style="display: flex; justify-content: space-around;">
+        <h3 >0%</h3><input type="range" id="vitesse" max="200" min="0"><h3 id="valeur1">100%</h3></article>
+    </article>
+       
+   
+   
+   </article>
+   <article style="text-align: center;">
+       <button id="defaultt" style="margin-top: 15px;border-radius: 8px;cursor: pointer;" onclick="deft()"><h2>default</h2></button>
+   </article>
+   
+   
+   <article style="margin-top: 20px;">
+      <article style="height: 40px; justify-content: center;background-color: white;"><h3 style="text-align: center;background-color: white;">chose your background color</h3></article> 
+   </article>
+   
+   <article id="rousa">
+       <div id="rou"><button id="ccc6" onclick="backgroundcolor6()"></button></div>
+    <div id="rou"><button id="ccc1" onclick="backgroundcolor()"></button></div>
+    <div id="rou"><button id="ccc2" onclick="backgroundcolor1()"></button></div>
+    <div id="rou"><button id="ccc3" onclick="backgroundcolor2()"></button></div>
+    <div id="rou"><button id="ccc4" onclick="backgroundcolor3()"></button></div>
+    <div id="rou"><button id="ccc5" onclick="backgroundcolor5()"></button></div>
+    
+   </article>
+     </div>
+   <article id="ft"><h4 style="font-family: 'Original Surfer', cursive; ">developped by Sakli Adem</h4><h5 id="copu" style="background-color: rgb(255, 255, 255); margin-top: 10px;">all © copyright are reserved 2021 </h5></article>
+   
+    </main>
+
+    <script>
+        let x=document.getElementById("player")
+        let section_android = document.getElementById("android")
+        let user_device=navigator.userAgent.toLocaleLowerCase()
+        
+        if(user_device.includes("android")){
+     section_android.style.display="none"
+   }
+     else{
+    setTimeout(()=>{
+        section_android.style.display="flex"
+        x.style.top="50%"
+    },1000)}
+
+        let closee=document.getElementById("close");
+        closee.addEventListener("click",()=>{
+        section_android.style.display="none"
+        x.style.top="10%"
+        })
+        </script>
+    
+   <script src="project5.js"></script>
+       
+   </body>
+
+</html>

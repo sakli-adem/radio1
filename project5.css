@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+}
+#backa{
+    background-color: white;
+    transition: 0.5s;
+}
+#player{
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    max-height: 700px;
+    border: 10px solid black;
+    border-radius: 30px;
+    background-color: rgb(255, 208, 227);
+    animation-name: bacc;
+  animation-duration: 40s ;
+  animation-iteration-count: infinite;
+
+}
+#header{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+header img{
+    height:200px;
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 15px;
+    
+}
+header h2 {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+#content{
+  background-color: rgb(70, 194, 194);
+  max-height: 340px;
+  margin-top: 7px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0 13px;
+}
+#button img{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+
+#volume{
+    margin-top: 20px;
+    width: 100%;
+}
+#vol , #vitesse{
+    width: 70%;
+    cursor: pointer;
+    
+}
+#rousa{
+  text-align: center;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+#ccc1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: linear-gradient(to top,rgb(217, 253, 14),rgb(80, 240, 32),yellow);
+    margin-left: 10px;
+    cursor: pointer;
+}
+    #ccc2{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: linear-gradient(to top,rgb(56, 255, 6),rgb(189, 131, 131));
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    #ccc3{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: linear-gradient(to top,rgb(6, 187, 219),rgb(250, 37, 239),yellow);
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    #ccc4{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: linear-gradient(to left,rgb(14, 250, 250),rgb(240, 24, 204));
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    #ccc5{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: linear-gradient(to top,rgb(214, 107, 20),rgb(234, 245, 245),orange);
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    #ccc6{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: rgb(70, 194, 194); ;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+#h22{
+    text-align: center;
+    margin-top: 0px;
+    color: black;
+}
+
+#titleradio{
+    font-family: 'Orelega One', cursive;
+    background-color: rgb(50, 179, 202);
+    color: white;
+    font-size: 40px;
+    
+
+   
+}
+
+
+#ft{margin-top: 13px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+#rou:hover{
+    transform: scale(1.1);
+}
+
+#defaultt:hover{
+    transform: scale(1.2);
+}
+#play_pause:hover{
+    transform: scale(1.2);
+}
+#back:hover{
+    transform: scale(1.2);
+}
+#next:hover{
+    transform: scale(1.2);
+}
+#tab:hover{
+    transform: scale(1.1);
+}
+
+@keyframes bacc {
+    5%{background-color: rgb(160, 195, 248);}
+    10%{background-color:rgb(248, 101, 101);}
+    20%{background-color: rgb(255, 173, 255);}
+    30%{background-color: rgb(165, 185, 190);}
+    40%{background-color: rgb(168, 241, 137);}
+    50%{background-color: rgb(192, 197, 194);} 
+    60%{background-color: rgb(39, 86, 156);}
+    650%{background-color:rgb(126, 61, 179);}
+    70%{background-color: rgb(75, 73, 75);}
+    80%{background-color: rgb(66, 134, 151);}
+    90%{background-color: rgb(89, 39, 109);}
+    100%{background-color: rgb(9, 92, 42);} 
+ }
+ input[type="range" i] {
+    appearance: auto;
+    color: -internal-light-dark(rgb(255, 34, 34), rgb(77, 22, 22));
+    cursor: default;
+    padding: initial;
+    border: initial;
+    margin: 2px;}
+#fre{
+   justify-content: center; text-align: center;align-items: center; margin-top: 100px; 
+}
+    #liste{
+        float: left; height: 800px; width: 300px;background-color: rgb(196, 238, 255); margin-top: 3px;margin-left: 8px;
+        transition: 1s;
+    }
+    #liste2{
+        float:right; height: 800px; width: 300px;background-color: rgb(196, 238, 255); justify-content: center
+        ;text-align: center;margin-top: 3px;margin-right: 8px; transition: 1s;
+    }
+#im:hover{
+    transform: scale(1.1);
+}
+    #tab,#tab1{
+        margin-top: 8px;
+        font-weight: 500;
+        font-family: 'Zen Dots', cursive;
+     cursor: pointer;
+    }
+    #social{
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+        background-color: white;
+        border-radius: 50%;
+        border:2px solid white;
+
+    }
+    #social1{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display:inline ;
+        cursor: pointer;
+     
+     
+    
+    }
+    #social2{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: none;
+        cursor: pointer;
+    }
+    #social2:hover{
+        transform: scale(1.2);
+    }
+    #social1:hover{
+        transform: scale(1.2);
+    }#social:hover{
+        transform: scale(1.2);
+    }
+
+    #div3{
+        margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: aliceblue;
+    justify-items: center;
+    display: none;
+    }
+
+    #cpu1{display: none;}
+    @media (max-width: 700px){
+        #player{
+            width: 330px;
+            max-height: 700px;
+            top: 1%;
+            border: 2px solid black;
+            border-radius: 30px;
+            background-color: rgb(255, 208, 227);
+            animation-name: bacc;
+          animation-duration: 40s ;
+          animation-iteration-count: infinite;
+        
+        }
+        #liste{
+             height: 800px; width: 96%;background-color: rgb(196, 238, 255); margin-top:210%;
+            transition: 1s;justify-content: center;text-align: center;margin-left: 5px;
+        }
+        #liste2{ 
+           height: 800px; width: 96%;background-color: rgb(196, 238, 255); justify-content: center
+            ;text-align: center;margin-top: 20px; transition: 1s;margin-right: 5.5px;
+        }
+        #tab:hover{
+            transform: scale(1);
+        }
+ #copu{
+     display: none;
+ }
+ #copu1{
+    display: flex;
+}
+#div3{
+
+display: flex;
+}
+
+}
