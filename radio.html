@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Unlock&family=Zen+Dots&display=swap" rel="stylesheet">
    </head>
 
-   <body id="backa"  onbeforeunload="return befor()" >
+   <body id="backa">
     <section id="android" style="width: 99%;display: none;  border-bottom: 2px solid black;
     background-color: rgb(21, 200, 255);padding: 3px; height: 250px;justify-content: center;">
     
@@ -166,12 +166,13 @@
         let section_android = document.getElementById("android")
         let user_device=navigator.userAgent.toLocaleLowerCase()
         
-               if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){ 
-            setTimeout(()=>{
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){ 
+            section_android.style.display="none"}
+     else{ 
+     setTimeout(()=>{
         section_android.style.display="flex"
         x.style.top="50%"
-    },1000)}
-     else{  section_android.style.display="none"
+    },1000)
     }
 
         let closee=document.getElementById("close");
