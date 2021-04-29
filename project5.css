@@ -11,10 +11,10 @@
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
-    max-height: 700px;
+    max-height: 880px;
     border: 10px solid black;
     border-radius: 30px;
-    background-color: rgb(255, 208, 227);
+    background-color: rgb(255, 255, 255);
     animation-name: bacc;
   animation-duration: 40s ;
   animation-iteration-count: infinite;
@@ -118,6 +118,15 @@ header h2 {
         margin-left: 10px;
         cursor: pointer;
     }
+    #ccc7{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: rgb(249, 255, 255); ;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
 
 #h22{
     text-align: center;
@@ -166,12 +175,12 @@ header h2 {
 }
 
 @keyframes bacc {
-    5%{background-color: rgb(160, 195, 248);}
-    10%{background-color:rgb(248, 101, 101);}
-    20%{background-color: rgb(255, 173, 255);}
-    30%{background-color: rgb(165, 185, 190);}
-    40%{background-color: rgb(168, 241, 137);}
-    50%{background-color: rgb(192, 197, 194);} 
+    5%{background-color: rgb(255, 255, 255);}
+    10%{background-color:rgb(140, 206, 245);}
+    20%{background-color: rgb(255, 255, 255);}
+    30%{background-color: rgb(243, 138, 138);}
+    40%{background-color: rgb(255, 255, 255);}
+    50%{background-color: rgb(238, 240, 125);} 
     60%{background-color: rgb(39, 86, 156);}
     650%{background-color:rgb(126, 61, 179);}
     70%{background-color: rgb(75, 73, 75);}
@@ -190,12 +199,12 @@ header h2 {
    justify-content: center; text-align: center;align-items: center; margin-top: 100px; 
 }
     #liste{
-        float: left; height: 800px; width: 300px;background-color: rgb(196, 238, 255); margin-top: 3px;margin-left: 8px;
-        transition: 1s;
+        float: left; height: 860px; width: 300px;background-color: rgb(196, 238, 255); margin-top: 3px;margin-left: 8px;
+        transition: 1s; text-align: center;border-radius: 30px;
     }
     #liste2{
-        float:right; height: 800px; width: 300px;background-color: rgb(196, 238, 255); justify-content: center
-        ;text-align: center;margin-top: 3px;margin-right: 8px; transition: 1s;
+        float:right; height: 860px; width: 300px;background-color: rgb(196, 238, 255); justify-content: center
+        ;text-align: center;margin-top: 3px;margin-right: 8px; transition: 1s;border-radius: 30px;
     }
 #im:hover{
     transform: scale(1.1);
@@ -255,11 +264,13 @@ header h2 {
     display: none;
     }
 
+
+
     #cpu1{display: none;}
     @media (max-width: 700px){
         #player{
             width: 330px;
-            max-height: 700px;
+            max-height: 880px;
             top: 1%;
             border: 2px solid black;
             border-radius: 30px;
@@ -270,11 +281,11 @@ header h2 {
         
         }
         #liste{
-             height: 800px; width: 96%;background-color: rgb(196, 238, 255); margin-top:210%;
+             height: 860px; width: 96%;background-color: rgb(196, 238, 255); margin-top:210%;
             transition: 1s;justify-content: center;text-align: center;margin-left: 5px;
         }
         #liste2{ 
-           height: 800px; width: 96%;background-color: rgb(196, 238, 255); justify-content: center
+           height: 860px; width: 96%;background-color: rgb(196, 238, 255); justify-content: center
             ;text-align: center;margin-top: 20px; transition: 1s;margin-right: 5.5px;
         }
         #tab:hover{
@@ -287,8 +298,10 @@ header h2 {
     display: flex;
 }
 #div3{
-
 display: flex;
+}
+#div4{
+    display: none;
 }
 
 }
