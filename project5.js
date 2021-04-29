@@ -580,6 +580,8 @@ function ln2() { //night mode
     f.style.background="rgb(196, 238, 255)" 
    
 }
-
+function befor(){
+                return"";
+            }
     
    
