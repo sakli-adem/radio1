@@ -223,6 +223,13 @@ function backgroundcolor6(){
     c1=document.getElementById("content")
     c1.style.background= "rgb(70, 194, 194)";
 }
+function backgroundcolor7(){
+    c1=document.getElementById("content")
+    c1.style.background= "white";
+
+}
+
+
 
 
 function setr() {
@@ -524,7 +531,8 @@ function ln() {//light mode
     var i=document.getElementById("liste2")
     var f=document.getElementById("fre")
     var r=document.getElementById("player")
-    
+    var ll=document.getElementById("copu1")
+    ll.style.color="black"
     p.style.background="white"
     i.style.background="white"
     r.style.border="10px solid white"
@@ -558,6 +566,7 @@ function ln2() { //night mode
     var i=document.getElementById("liste2")
     var f=document.getElementById("fre")
     var r=document.getElementById("player")
+   
     r.style.border="10px solid black"
     x.style.background="white"
     y.style.display="inline"
