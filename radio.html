@@ -101,7 +101,7 @@
    <img id="im" name="imag" src="dtff.png">
    <h2 id="titleradio">DTF</h2>
      </header>
-     <div id="content" style="height: 468px;  background: linear-gradient(to top,rgb(6, 187, 219),rgb(250, 37, 239),yellow);">
+     <div id="content" style="height: 468px;  background: white;">
          <article id="button">
              <img src="pre.png" id="back">
              <img src="play.png" id="play_pause">
@@ -133,7 +133,8 @@
    
    
    <article style="margin-top: 20px;">
-      <article style="height: 40px; justify-content: center;background-color: white;"><h3 style="text-align: center;background-color: white;">chose your background color</h3></article> 
+      <article style="height: 30px; justify-content: center;background-color: white;">
+        <h3 style="text-align: center;background-color: white;">chose your background color</h3></article> 
    </article>
    
    <article id="rousa">
@@ -143,11 +144,21 @@
     <div id="rou"><button id="ccc3" onclick="backgroundcolor2()"></button></div>
     <div id="rou"><button id="ccc4" onclick="backgroundcolor3()"></button></div>
     <div id="rou"><button id="ccc5" onclick="backgroundcolor5()"></button></div>
-    
+    <div id="rou"><button id="ccc7" onclick="backgroundcolor7()"></button></div>
    </article>
-     </div>
-   <article id="ft"><h4 style="font-family: 'Original Surfer', cursive; ">developped by Sakli Adem</h4><h5 id="copu" style="background-color: rgb(255, 255, 255); margin-top: 10px;">all © copyright are reserved 2021 </h5></article>
    
+
+
+<article style="justify-content: center;text-align: center;margin-top: 20px; background-color: white;"> <article id="time"> <p id="settime">23:00</p></article>
+      <article id="date"><p id="setdate">06/04/2021</p></article>
+ </article>
+   
+
+
+
+
+ <article id="ft"><h4 style="font-family: 'Original Surfer', cursive; ">designed by Sakli Adem</h4></article>
+ <div id="div4"><h5 id="lll" style="text-align: center;background-color: white; border-radius: 17px;" >all © copyright are reserved 2021 </h5></div>
     </main>
 
     <script>
@@ -155,14 +166,13 @@
         let section_android = document.getElementById("android")
         let user_device=navigator.userAgent.toLocaleLowerCase()
         
-        if(user_device.includes("android")){
-     section_android.style.display="none"
-   }
-     else{
-    setTimeout(()=>{
+        if(user_device.includes("chrome")){
+            setTimeout(()=>{
         section_android.style.display="flex"
         x.style.top="50%"
     },1000)}
+     else{  section_android.style.display="none"
+    }
 
         let closee=document.getElementById("close");
         closee.addEventListener("click",()=>{
@@ -170,7 +180,17 @@
         x.style.top="10%"
         })
         </script>
-    
+    <script>
+        function update() {
+    var date=new Date()
+    var setime=document.getElementById("settime")
+  setime.innerHTML=date.getHours() +":"+date.getMinutes()+":"+date.getSeconds()
+   var setdate=document.getElementById("setdate")
+    setdate.innerHTML=date.getDate()+"/"+parseInt(date.getMonth() +1 )+"/"+date.getFullYear()
+}
+setInterval(update,500)
+onload=update()
+    </script>
    <script src="project5.js"></script>
        
    </body>
